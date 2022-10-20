@@ -378,10 +378,10 @@ header .follow a:hover {
   padding-top: 0.5rem;
 }
 
-.experience .box-container {
-  /* display: flex;
-  flex-wrap: wrap; */
-}
+/* .experience .box-container {
+  display: flex;
+  flex-wrap: wrap;
+} */
 
 .experience .box-container .box {
   position: relative;
@@ -390,6 +390,9 @@ header .follow a:hover {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-bottom: 2rem;
+}
+.education-center {
+  font-size: 24px !important;
 }
 
 .experience .box-container .box::before {
