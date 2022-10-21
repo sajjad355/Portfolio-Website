@@ -328,11 +328,13 @@ header .follow a:hover {
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  /* margin-top: -89px; */
 }
 
 .about .row-2 .box-container .box h3 {
   color: var(--main-color);
-  font-size: 3rem;
+  font-size: 2.5rem;
+  margin-top: -15px;
 }
 
 .about .row-2 .box-container .box p {
@@ -376,6 +378,19 @@ header .follow a:hover {
   color: #666;
   font-size: 1.7rem;
   padding-top: 0.5rem;
+  margin-left: 10px;
+}
+.certificate {
+  margin-left: 25px;
+  font-size: 15px;
+  color: black;
+  margin-top: -1px;
+}
+
+.activity {
+  font-size: 14px;
+  color: black;
+  margin-left: 22px;
 }
 
 /* .experience .box-container {
