@@ -684,3 +684,9 @@ header .follow a:hover {
     padding-right: 0;
   }
 }
+
+@media (min-width: 1252px) {
+  .moocs {
+    margin-top: -50px;
+  }
+}
