@@ -700,6 +700,6 @@ header .follow a:hover {
 
 @media (min-width: 1252px) {
   .moocs {
-    margin-top: -9px;
+    margin-top: 0px;
   }
 }
