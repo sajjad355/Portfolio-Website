@@ -640,6 +640,10 @@ header .follow a:hover {
   /* background: blue; */
   text-align: left;
 }
+
+a:hover {
+  color: black;
+}
 .player-thumb {
   width: 300px;
   height: 300px;
