@@ -17,6 +17,23 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
+
+    <script>
+      function validateForm() {
+        let name = document.forms["contactForm"]["name"].value;
+        let email = document.forms["contactForm"]["email"].value;
+        let message = document.forms["contactForm"]["message"].value;
+
+        if (name == "" || email=="" || message=="") {
+          alert("Name must be filled out");
+          return false;
+        }
+        else{
+          alert("Message sent sucessfully!");
+        }
+      }
+      </script>
+
   </head>
   <body>
 
@@ -536,17 +553,18 @@
       </div>
 
       <div class="row">
-        <form action="">
-          <input type="text" placeholder="name" class="box" />
-          <input type="email" placeholder="email" class="box" />
+        <form name="contactForm" onsubmit="return validateForm()">
+          <input type="text" name="name" placeholder="name" class="box"  required/>
+          <input type="email" name="email" placeholder="email" class="box" required/>
           <input type="text" placeholder="number" class="box" />
 
           <textarea
-            name=""
+            name="message"
             placeholder="message"
             id=""
             cols="30"
             rows="10"
+            required
           ></textarea>
 
           <input type="submit" class="btn" value="send message" />
